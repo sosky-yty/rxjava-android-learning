@@ -1,5 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
 buildscript {
     
     repositories {
@@ -26,11 +25,11 @@ allprojects {
     }
 
     ext{
-        sdkVersion = 26
+        sdkVersion = 27
         buildToolsVrs = "26.1.1"
 
         archComponentsVersion = "1.1.1"
-        butterKnifeVersion = '8.8.1'
+        butterKnifeVersion = '8.5.1'
         mockitoKotlinVersion = "1.4.0"
         okhttpVersion = "3.0.1"
         retrofitVersion = "2.0.0"

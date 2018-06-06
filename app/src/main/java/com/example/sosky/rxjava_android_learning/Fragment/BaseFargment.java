@@ -1,6 +1,6 @@
-package com.example.sosky.rxjava_android_learning.BaseFragment;
+package com.example.sosky.rxjava_android_learning.Fragment;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 
 import com.example.sosky.rxjava_android_learning.Myapp;
 import com.squareup.leakcanary.RefWatcher;
