@@ -76,11 +76,12 @@ public class Scheduler_fragment extends BaseFargment {
     }
 
     private Observable<Boolean> getObservable(){
-        return Observable.just(true)
-                .map(aBoolean -> {
-                    log("产生被观察者");
+        //通过just创建的observable,将按照参数顺序调用observe的onNext()
+        return Observable.just(true,false)
+                .map(aBoolen->{
+                    log("后台耗时工作");
                     background_operation();
-                    return aBoolean;
+                    return aBoolen;
                 });
     }
 

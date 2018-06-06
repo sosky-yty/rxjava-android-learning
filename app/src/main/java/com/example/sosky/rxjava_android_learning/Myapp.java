@@ -1,5 +1,6 @@
 package com.example.sosky.rxjava_android_learning;
 
+import android.annotation.SuppressLint;
 import android.app.Application;
 import android.support.multidex.MultiDexApplication;
 
@@ -18,7 +19,11 @@ public class Myapp extends MultiDexApplication {
     }
 
     public static RefWatcher getWatcher(){
-        return mMyapp.getmMyapp().getWatcher();
+        return mMyapp.getmMyapp().getmRefWatcher();
+    }
+
+    public RefWatcher getmRefWatcher() {
+        return mRefWatcher;
     }
 
     @Override
