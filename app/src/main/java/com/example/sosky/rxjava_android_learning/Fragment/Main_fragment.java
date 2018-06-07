@@ -6,11 +6,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
 import com.example.sosky.rxjava_android_learning.R;
 
+import java.util.List;
 import java.util.Objects;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
@@ -28,15 +33,15 @@ public class Main_fragment extends BaseFargment {
         return layout;
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        unbinder.unbind();
-    }
 
     @OnClick(R.id.btn_schedulers)
     public void scheduler_fragment(){
         clickedOn(new Scheduler_fragment());
+    }
+
+    @OnClick({R.id.eventbuff_btn})
+    public void eventbuff_fragment(){
+        clickedOn(new eventbuff_fragment());
     }
 
     private void clickedOn(@NonNull Fragment fragment) {

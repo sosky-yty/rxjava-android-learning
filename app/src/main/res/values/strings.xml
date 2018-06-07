@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Rxjava_Android_Learning</string>
-
+    <!--scheduler_fragment-->
     <string name="btn_schedulers">后台耗时工作(线程调度)</string>
     <string name="scheduler_description">按钮点击进行后台耗时事件,线程切换控制主线程view</string>
     <string name="scheduler_btn">开始后台工作</string>
+    <!--enventbuff_fragment-->
+    <string name="eventbuff_btn">事件缓冲(buffer操作符)</string>
+    <string name="eventbuff_description">缓冲一段时间内发送的事件,然后进行统一处理</string>
+    <string name="evnet_vtn">点击</string>
 </resources>

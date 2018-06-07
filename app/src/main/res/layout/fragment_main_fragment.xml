@@ -22,6 +22,11 @@
             android:id="@+id/btn_schedulers"
             android:text="@string/btn_schedulers"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eventbuff_btn"
+            android:text="@string/eventbuff_btn"/>
     </LinearLayout>
 
 </ScrollView>
