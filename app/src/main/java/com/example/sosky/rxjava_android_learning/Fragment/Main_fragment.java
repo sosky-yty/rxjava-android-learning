@@ -44,6 +44,10 @@ public class Main_fragment extends BaseFargment {
         clickedOn(new eventbuff_fragment());
     }
 
+    @OnClick(R.id.debounce_btn)
+    public void debounce_frament(){
+        clickedOn(new Debounce_fragment());
+    }
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()
@@ -54,4 +58,5 @@ public class Main_fragment extends BaseFargment {
                 .commit();
 
     }
+
 }

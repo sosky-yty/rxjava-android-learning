@@ -27,6 +27,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/eventbuff_btn"
             android:text="@string/eventbuff_btn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/debounce_btn"
+            android:text="@string/debounce_button"/>
     </LinearLayout>
 
 </ScrollView>

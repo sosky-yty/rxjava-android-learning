@@ -7,5 +7,10 @@
     <!--enventbuff_fragment-->
     <string name="eventbuff_btn">事件缓冲(buffer操作符)</string>
     <string name="eventbuff_description">缓冲一段时间内发送的事件,然后进行统一处理</string>
-    <string name="evnet_vtn">点击</string>
+    <string name="evnet_btn">点击</string>
+    <!--debounce_fragment-->
+    <string name="debouce_description">对编辑框进行监听,对每次变化进行操作</string>
+    <string name="debounce_btn">清除</string>
+    <string name="debounce_button">编辑框变化事件监听</string>
+
 </resources>
