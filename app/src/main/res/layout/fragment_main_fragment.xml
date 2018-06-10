@@ -33,6 +33,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/debounce_btn"
             android:text="@string/debounce_button"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_retrofit"
+            android:text="@string/retrofit_rxjava"/>
     </LinearLayout>
 
 </ScrollView>

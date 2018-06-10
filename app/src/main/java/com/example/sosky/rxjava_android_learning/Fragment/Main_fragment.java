@@ -33,6 +33,11 @@ public class Main_fragment extends BaseFargment {
         return layout;
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
+    }
 
     @OnClick(R.id.btn_schedulers)
     public void scheduler_fragment(){
@@ -48,9 +53,15 @@ public class Main_fragment extends BaseFargment {
     public void debounce_frament(){
         clickedOn(new Debounce_fragment());
     }
+
+
+    @OnClick(R.id.btn_retrofit)
+    public void retrofit_fragment(){clickedOn(new Retrofit_fragment());}
+
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()
+
                 .getSupportFragmentManager()
                 .beginTransaction()
                 .addToBackStack(tag)

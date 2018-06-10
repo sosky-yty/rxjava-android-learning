@@ -12,5 +12,13 @@
     <string name="debouce_description">对编辑框进行监听,对每次变化进行操作</string>
     <string name="debounce_btn">清除</string>
     <string name="debounce_button">编辑框变化事件监听</string>
-
+    <string name="retrofit_description">展示了使用retrofit进行网络请求</string>
+    <string name="retrofit_btn">展示所有贡献者</string>
+    <string name="comname">square</string>
+    <string name="libname">retrofit</string>
+    <string name="retrofit_btn1">展示所有用户</string>
+    <string name="retrofit_rxjava">网络请求(retrofit+Rxjava)</string>
+    <string name="github_oauth_token"><!-- InsertYouroAuthTokenHere --></string>
+    <string name="owner">owner</string>
+    <string name="repo">repo</string>
 </resources>
