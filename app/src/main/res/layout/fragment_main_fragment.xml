@@ -38,6 +38,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_retrofit"
             android:text="@string/retrofit_rxjava"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_double_binding"
+            android:text="@string/doublebinder"/>
     </LinearLayout>
 
 </ScrollView>

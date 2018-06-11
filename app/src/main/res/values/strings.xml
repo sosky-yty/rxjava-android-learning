@@ -21,4 +21,8 @@
     <string name="github_oauth_token"><!-- InsertYouroAuthTokenHere --></string>
     <string name="owner">owner</string>
     <string name="repo">repo</string>
+    <string name="edit_change">监听两个编辑框变化</string>
+    <string name="jiaohao">+</string>
+    <string name="_0">0</string>
+    <string name="doublebinder">多个编辑框事件监听</string>
 </resources>

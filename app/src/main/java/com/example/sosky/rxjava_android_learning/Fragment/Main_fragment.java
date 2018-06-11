@@ -58,10 +58,12 @@ public class Main_fragment extends BaseFargment {
     @OnClick(R.id.btn_retrofit)
     public void retrofit_fragment(){clickedOn(new Retrofit_fragment());}
 
+    @OnClick(R.id.btn_double_binding)
+    public void doublebinding_fragment(){clickedOn(new DoubleBindTextview_fragment());}
+
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()
-
                 .getSupportFragmentManager()
                 .beginTransaction()
                 .addToBackStack(tag)
