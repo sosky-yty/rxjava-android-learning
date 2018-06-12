@@ -25,4 +25,8 @@
     <string name="jiaohao">+</string>
     <string name="_0">0</string>
     <string name="doublebinder">多个编辑框事件监听</string>
+    <string name="polling_description">定时任务实例</string>
+    <string name="simple_polling">简单的定时任务</string>
+    <string name="istart_increasingly_delayed_polling">延迟增加的定时任务</string>
+    <string name="polling">定时任务</string>
 </resources>

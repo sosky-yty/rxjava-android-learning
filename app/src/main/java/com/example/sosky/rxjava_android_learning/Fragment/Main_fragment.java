@@ -61,6 +61,8 @@ public class Main_fragment extends BaseFargment {
     @OnClick(R.id.btn_double_binding)
     public void doublebinding_fragment(){clickedOn(new DoubleBindTextview_fragment());}
 
+    @OnClick(R.id.btn_polling)
+    public void polling_fragment(){clickedOn(new Polling_fragment());}
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()
