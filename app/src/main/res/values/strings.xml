@@ -29,4 +29,8 @@
     <string name="simple_polling">简单的定时任务</string>
     <string name="istart_increasingly_delayed_polling">延迟增加的定时任务</string>
     <string name="polling">定时任务</string>
+    <string name="tap">Tap</string>
+    <string name="rxbus_top">点击按钮发送事件信号到总线</string>
+    <string name="rxbus_btn">事件总线</string>
+    <string name="rxbus">事件总线监听</string>
 </resources>

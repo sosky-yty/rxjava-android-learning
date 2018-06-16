@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Application;
 import android.support.multidex.MultiDexApplication;
 
+import com.example.sosky.rxjava_android_learning.rxbus.RxBus;
 import com.example.sosky.rxjava_android_learning.volley.MyVolley;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
@@ -41,4 +42,5 @@ public class Myapp extends MultiDexApplication {
 
         Timber.plant(new Timber.DebugTree());
     }
+
 }

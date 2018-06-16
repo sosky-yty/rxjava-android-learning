@@ -11,6 +11,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.example.sosky.rxjava_android_learning.R;
+import com.example.sosky.rxjava_android_learning.rxbus.Rxbus_fragment;
 
 import java.util.List;
 import java.util.Objects;
@@ -63,6 +64,10 @@ public class Main_fragment extends BaseFargment {
 
     @OnClick(R.id.btn_polling)
     public void polling_fragment(){clickedOn(new Polling_fragment());}
+
+    @OnClick(R.id.btn_rxbus)
+    public void rxbus_fragment(){clickedOn(new Rxbus_fragment());}
+
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()

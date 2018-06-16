@@ -5,8 +5,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
-import android.text.format.Time;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -81,6 +79,7 @@ public class Polling_fragment extends BaseFargment {
 
         Disposable d =  Flowable.interval(INITIAL_DELAY, POLLING_INTERVAL,TimeUnit.MILLISECONDS)
                 .map(this::doNetWorkbackground)
+                //迭代器调用几次
                 .take(count)
                 .doOnSubscribe(
                 subscription -> {
@@ -109,11 +108,7 @@ public class Polling_fragment extends BaseFargment {
                 Flowable.just(1L)
                         .repeatWhen(new RepeatWithDelay(pollCount, pollingInterval))
                         .subscribe(
-                                o ->
-                                        log(
-                                                String.format(
-                                                        Locale.US,
-                                                        "Executing polled task now time : [xx:%02d]",
+                                o -> log(String.format(Locale.US, "Executing polled task now time : [xx:%02d]",
                                                         _getSecondHand())),
                                 e -> Timber.d(e, "arrrr. Error")));
     }
