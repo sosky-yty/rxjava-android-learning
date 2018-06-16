@@ -33,4 +33,8 @@
     <string name="rxbus_top">点击按钮发送事件信号到总线</string>
     <string name="rxbus_btn">事件总线</string>
     <string name="rxbus">事件总线监听</string>
+    <string name="volley">调用volley网络请求</string>
+    <string name="click">点击</string>
+    <string name="volley_s">volley网络通信</string>
+    <string name="url">https://api.github.com/users/sosky-yty</string>
 </resources>
