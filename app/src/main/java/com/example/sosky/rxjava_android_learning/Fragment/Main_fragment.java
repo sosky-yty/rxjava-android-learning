@@ -72,6 +72,9 @@ public class Main_fragment extends BaseFargment {
     @OnClick(R.id.btn_volley)
     public  void volley_fragment(){clickedOn(new Volley_fragment());}
 
+    @OnClick(R.id.btn_inputtest)
+    public void inputtest_fragment(){clickedOn(new Inputtest_fragment());}
+
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()

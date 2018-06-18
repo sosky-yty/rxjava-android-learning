@@ -37,4 +37,11 @@
     <string name="click">点击</string>
     <string name="volley_s">volley网络通信</string>
     <string name="url">https://api.github.com/users/sosky-yty</string>
+    <string name="des_inputtest">监听多个输入框内容正确性,最终并激活按钮</string>
+    <string name="email_address">请输入邮箱地址 :</string>
+    <string name="_8_char"><![CDATA[请输入用户名(>8个char)]]></string>
+    <string name="password_input"><![CDATA[请输入密码(>8,<20)]]></string>
+    <string name="login_btn">登录</string>
+    <string name="s_login">登录</string>
+    <string name="inputtest_S">监听多个输入框事件</string>
 </resources>
