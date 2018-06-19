@@ -44,4 +44,7 @@
     <string name="login_btn">登录</string>
     <string name="s_login">登录</string>
     <string name="inputtest_S">监听多个输入框事件</string>
+    <string name="netword_s">检测手机是否联网</string>
+    <string name="not_online">未联网</string>
+    <string name="network_btns">检测网络情况</string>
 </resources>

@@ -75,6 +75,9 @@ public class Main_fragment extends BaseFargment {
     @OnClick(R.id.btn_inputtest)
     public void inputtest_fragment(){clickedOn(new Inputtest_fragment());}
 
+    @OnClick(R.id.btn_network)
+    public void network_fragment(){clickedOn(new NetworkDetector_fargment());}
+
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();
         getActivity()
